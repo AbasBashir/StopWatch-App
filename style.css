@@ -35,5 +35,24 @@ body{
     font-size: 5.5rem;
     text-align: center;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 80px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.buttons #play{
+    width: 50px;
+    cursor: pointer;
+}
+
+.buttons #reset{
+    width: 50px;
+    cursor: pointer;
 }
