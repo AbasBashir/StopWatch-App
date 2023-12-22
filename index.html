@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@300;500;600;700&family=Roboto&display=swap" rel="stylesheet">
@@ -10,8 +11,24 @@
 </head>
 <body>
     
+    <div class="container">
 
-    
+        <div id="timer">
+            00:00:00
+        </div>
+
+        <div class="buttons">
+
+            <div id="startStopBtn" id="play">
+                <img src="images/playBtn.svg" alt="startStopButton" id="play">
+            </div>
+
+            <div id="resetBtn" id="reset">
+                <img src="images/resetBtn.svg" alt="resetButton" id="reset">
+            </div>
+        </div>
+    </div>
+
 
     <script src="app.js"></script>
 </body>

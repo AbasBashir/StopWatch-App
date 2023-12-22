@@ -8,3 +8,15 @@
 html{
     font-size: 62.5%;
 }
+
+body{
+    position: relative;
+    background: url(images/track-5406188_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
