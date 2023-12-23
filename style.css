@@ -11,7 +11,7 @@ html{
 
 body{
     position: relative;
-    background: url(images/track-5406188_1920.jpg);
+    background: url(images/runningTrack.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,6 +41,7 @@ body{
 .buttons{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 60%;
     margin: 0 auto;
     margin-top: 30px;
@@ -54,5 +55,10 @@ body{
 
 .buttons #reset{
     width: 50px;
+    cursor: pointer;
+}
+
+#startPauseBtn #pause{
+    width: 55px;
     cursor: pointer;
 }
